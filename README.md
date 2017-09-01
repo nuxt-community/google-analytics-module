@@ -1,4 +1,4 @@
-# @nuxtjs/google-analytics
+# Google Analytics
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@nuxtjs/google-analytics/latest.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/google-analytics)
 [![npm](https://img.shields.io/npm/dt/@nuxtjs/google-analytics.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/google-analytics)
 [![CircleCI](https://img.shields.io/circleci/project/github/nuxt-community/analytics-module.svg?style=flat-square)](https://circleci.com/gh/nuxt-community/analytics-module)
@@ -12,9 +12,7 @@
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
-## Features
-
-The module features
+**Notice: The new version with [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) is still WIP! Please refer to [google-analytics](https://github.com/nuxt-community/modules/tree/master/modules/google-analytics) module for latest docs**
 
 ## Setup
 - Add `@nuxtjs/google-analytics` dependency using yarn or npm to your project
