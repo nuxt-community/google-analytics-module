@@ -40,7 +40,7 @@
     ]
   },
   "dependencies": {
-
+    "vue-analytics": "next"
   },
   "devDependencies": {
     "nuxt-module-builder": "latest"
