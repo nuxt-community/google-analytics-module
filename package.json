@@ -5,7 +5,7 @@
   "license": "MIT",
   "contributors": [
     {
-      "name": "-"
+      "name": "Matteo Gabriele <m.gabriele.dev@gmail.com>"
     }
   ],
   "main": "dist/index.js",
