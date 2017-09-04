@@ -8,7 +8,7 @@
 
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
-> Google Analytics Module for Nuxt.js
+> Google Analytics integration for Nuxt.js with [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -22,17 +22,35 @@
 {
   modules: [
     // Simple usage
-    '@nuxtjs/google-analytics',
-
-    // With options
-    ['@nuxtjs/google-analytics', { /* module options */ }],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-12301-2'
+    }]
  ]
+}
+```
+using top level options
+
+```js
+{
+  modules: [
+    ['@nuxtjs/google-analytics']
+  ],
+ 
+ 'google-analytics': {
+    id: 'UA-12301-2'
+  }
 }
 ```
 
 ## Usage
 
-Module Description
+Click (here)[https://matteogabriele.gitbooks.io/vue-analytics/content/] for all options and features of vue-analytics
+
+Differences between vue-analytics and the Nuxt.js implementation:
+
+* The router instance is already added out of the box (read [here](https://github.com/MatteoGabriele/vue-analytics/blob/master/docs/page-tracking.md#disable-page-auto-tracking) if you need to disable it)
+* The `id` and `ua` properties have the exact same behaviour. The `ua` property has been added for backwards compatibily with previous releases
+
 
 ## License
 
