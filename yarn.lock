@@ -6647,9 +6647,9 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-analytics@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-4.4.0.tgz#a64a94a20f0d04259ce4a5f5240c9d53ac834244"
+vue-analytics@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.1.0.tgz#1e27f15230bec5f3f19447e0ca41527e85617ec7"
   dependencies:
     load-script "^1.0.0"
 
