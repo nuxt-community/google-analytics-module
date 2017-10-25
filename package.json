@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/google-analytics",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "Google Analytics Module for Nuxt.js",
   "license": "MIT",
   "contributors": [
@@ -8,22 +8,19 @@
       "name": "Matteo Gabriele <m.gabriele.dev@gmail.com>"
     }
   ],
-  "main": "dist/index.js",
+  "main": "lib/module.js",
   "repository": "https://github.com/nuxt-community/analytics-module",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "nuxt-module",
-    "watch": "nuxt-module --watch",
     "lint": "eslint lib src test",
     "lint-fix": "eslint --fix lib src test",
-    "test": "NODE_ENV=test npm run build && npm run lint && jest",
-    "release": "standard-version && git push --follow-tags && npm publish",
-    "prepare": "npm run test && npm run build"
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "eslintIgnore": [
-    "*.template.*"
+    "lib/templates/*.*"
   ],
   "files": [
     "lib",
@@ -40,7 +37,7 @@
     ]
   },
   "dependencies": {
-    "vue-analytics": "^5.1.0"
+    "vue-analytics": "^5.1.1"
   },
   "devDependencies": {
     "nuxt-module-builder": "latest"

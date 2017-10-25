@@ -5,6 +5,6 @@ module.exports = {
     resourceHints: false
   },
   modules: [
-    ['~/../..', {}]
+    ['@@', {}]
   ]
 }
