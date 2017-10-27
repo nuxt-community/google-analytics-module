@@ -12,8 +12,6 @@
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
-**Notice: The new version with [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) is still WIP! Please refer to [google-analytics](https://github.com/nuxt-community/modules/tree/master/modules/google-analytics) module for latest docs**
-
 ## Setup
 - Add `@nuxtjs/google-analytics` dependency using yarn or npm to your project
 - Add `@nuxtjs/google-analytics` to `modules` section of `nuxt.config.js`
