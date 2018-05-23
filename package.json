@@ -40,6 +40,18 @@
     "vue-analytics": "^5.4.0"
   },
   "devDependencies": {
-    "nuxt-module-builder": "latest"
+    "nuxt": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint-plugin-vue": "latest",
+    "jest": "latest",
+    "jsdom": "latest",
+    "standard-version": "latest"
   }
 }
