@@ -5,32 +5,31 @@ process.env.NODE_ENV = 'production'
 const { Nuxt, Builder } = require('nuxt')
 const request = require('request-promise-native')
 
-const config = require('./fixture/nuxt.config')
-
 const url = path => `http://localhost:${process.env.PORT}${path}`
 const get = path => request(url(path))
 
-describe('Module', () => {
+describe('VueAnalytics', () => {
   let nuxt
 
-  beforeAll(async () => {
-    config.modules.unshift(function () {
-      // Add test specific test only hooks on nuxt life cycle
-    })
-
-    // Build a fresh nuxt
-    nuxt = new Nuxt(config)
-    await new Builder(nuxt).build()
-    await nuxt.listen(process.env.PORT)
-  })
-
-  afterAll(async () => {
-    // Close all opened resources
+  afterEach(async () => {
     await nuxt.close()
   })
 
-  test('render', async () => {
+  test('default', async () => {
+    nuxt = new Nuxt(require('./fixture/nuxt.config'))
+    await new Builder(nuxt).build()
+    await nuxt.listen(process.env.PORT)
     let html = await get('/')
+
+    expect(html).toContain('Works!')
+  })
+
+  test('with ua', async () => {
+    nuxt = new Nuxt(require('./fixture/with_ua_nuxt.config'))
+    await new Builder(nuxt).build()
+    await nuxt.listen(process.env.PORT)
+    let html = await get('/')
+
     expect(html).toContain('Works!')
   })
 })
