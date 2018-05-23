@@ -37,7 +37,7 @@
     ]
   },
   "dependencies": {
-    "vue-analytics": "^5.4.0"
+    "vue-analytics": "^5.12.2"
   },
   "devDependencies": {
     "nuxt-module-builder": "latest"
