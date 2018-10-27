@@ -23,7 +23,7 @@
     ['@nuxtjs/google-analytics', {
       id: 'UA-12301-2'
     }]
- ]
+  ]
 }
 ```
 using top level options
@@ -34,7 +34,7 @@ using top level options
     ['@nuxtjs/google-analytics']
   ],
  
- 'google-analytics': {
+  'google-analytics': {
     id: 'UA-12301-2'
   }
 }
