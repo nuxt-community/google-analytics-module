@@ -24,18 +24,6 @@
   "files": [
     "lib"
   ],
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "esmodules": true
-          }
-        }
-      ]
-    ]
-  },
   "jest": {
     "testEnvironment": "node",
     "collectCoverage": true,
