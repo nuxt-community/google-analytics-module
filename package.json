@@ -14,33 +14,67 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint lib src test",
-    "lint-fix": "eslint --fix lib src test",
+    "lint": "eslint lib test",
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "eslintIgnore": [
-    "lib/templates/*.*"
+    "lib/plugin.js"
   ],
   "files": [
-    "lib",
-    "src",
-    "dist"
+    "lib"
   ],
-  "jest": {
-    "testEnvironment": "node",
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "lib",
-      "src"
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ]
     ]
   },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lib/**/*.js",
+      "!lib/plugin.js"
+    ],
+    "moduleNameMapper": {
+      "^~/(.*)$": "<rootDir>/lib/$1",
+      "^~~$": "<rootDir>",
+      "^@@$": "<rootDir>",
+      "^@/(.*)$": "<rootDir>/lib/$1"
+    },
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "pre-commit": "yarn test",
+      "pre-push": "yarn test"
+    }
+  },
   "dependencies": {
-    "vue-analytics": "^5.12.2"
+    "vue-analytics": "^5.16.2"
   },
   "devDependencies": {
-    "nuxt": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
     "codecov": "latest",
     "eslint": "latest",
     "eslint-config-standard": "latest",
@@ -50,8 +84,11 @@
     "eslint-plugin-promise": "latest",
     "eslint-plugin-standard": "latest",
     "eslint-plugin-vue": "latest",
+    "husky": "latest",
     "jest": "latest",
-    "jsdom": "latest",
+    "nuxt-edge": "latest",
+    "request": "latest",
+    "request-promise-native": "latest",
     "standard-version": "latest"
   }
 }
