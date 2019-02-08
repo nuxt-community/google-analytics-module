@@ -58,13 +58,6 @@
       "@commitlint/config-conventional"
     ]
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS",
-      "pre-commit": "yarn test",
-      "pre-push": "yarn test"
-    }
-  },
   "dependencies": {
     "vue-analytics": "^5.16.2"
   },
