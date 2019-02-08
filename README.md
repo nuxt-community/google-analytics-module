@@ -1,11 +1,11 @@
 # Google Analytics
 
-[![npm (scoped with tag)](https://img.shields.io/npm/v/@nuxtjs/google-analytics/latest.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/google-analytics)
-[![npm](https://img.shields.io/npm/dt/@nuxtjs/google-analytics.svg?style=flat-square)](https://npmjs.com/package/@nuxtjs/google-analytics)
-[![CircleCI](https://img.shields.io/circleci/project/github/nuxt-community/analytics-module.svg?style=flat-square)](https://circleci.com/gh/nuxt-community/analytics-module)
-[![Codecov](https://img.shields.io/codecov/c/github/nuxt-community/analytics-module.svg?style=flat-square)](https://codecov.io/gh/nuxt-community/analytics-module)
-[![Dependencies](https://david-dm.org/nuxt-community/analytics-module/status.svg?style=flat-square)](https://david-dm.org/nuxt-community/analytics-module)
-[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Circle CI][circle-ci-src]][circle-ci-href]
+[![Codecov][codecov-src]][codecov-href]
+[![Dependencies][david-dm-src]][david-dm-href]
+[![Standard JS][standard-js-src]][standard-js-href]
 
 > Google Analytics integration for Nuxt.js with [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
 
@@ -55,3 +55,17 @@ Differences between vue-analytics and the Nuxt.js implementation:
 [MIT License](./LICENSE)
 
 Copyright (c) - Matteo Gabriele <m.gabriele.dev@gmail.com>
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/dt/@nuxtjs/google-analytics.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@nuxtjs/google-analytics
+[npm-downloads-src]: https://img.shields.io/npm/v/@nuxtjs/google-analytics/latest.svg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/google-analytics
+[circle-ci-src]: https://img.shields.io/circleci/project/github/nuxt-community/analytics-module.svg?style=flat-square
+[circle-ci-href]: https://circleci.com/gh/nuxt-community/analytics-module
+[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/analytics-module.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/nuxt-community/analytics-module
+[david-dm-src]: https://david-dm.org/nuxt-community/analytics-module/status.svg?style=flat-square
+[david-dm-href]: https://david-dm.org/nuxt-community/analytics-module
+[standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
+[standard-js-href]: https://standardjs.com
