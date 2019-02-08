@@ -18,7 +18,7 @@ describe('module', () => {
     nuxt = new Nuxt(require('./fixture/nuxt.config'))
     await new Builder(nuxt).build()
     await nuxt.listen(process.env.PORT)
-    let html = await get('/')
+    const html = await get('/')
     expect(html).toContain('Works!')
   })
 
@@ -26,7 +26,7 @@ describe('module', () => {
     nuxt = new Nuxt(require('./fixture/with_ua_nuxt.config'))
     await new Builder(nuxt).build()
     await nuxt.listen(process.env.PORT)
-    let html = await get('/')
+    const html = await get('/')
     expect(html).toContain('Works!')
   })
 })
