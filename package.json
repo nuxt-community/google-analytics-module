@@ -21,11 +21,6 @@
   "files": [
     "lib"
   ],
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "dependencies": {
     "vue-analytics": "^5.16.2"
   },
