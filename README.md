@@ -13,8 +13,9 @@
 
 ## Setup
 
-- Add `@nuxtjs/google-analytics` dependency using yarn or npm to your project
-- Add `@nuxtjs/google-analytics` to `modules` section of `nuxt.config.js`
+1. Add `@nuxtjs/google-analytics` dependency with `yarn` or `npm` into your project
+2. Add `@nuxtjs/google-analytics` to `modules` section of `nuxt.config.js`:
+3. Configure it:
 
 ```js
 {
