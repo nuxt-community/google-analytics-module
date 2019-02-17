@@ -49,7 +49,7 @@ Differences between vue-analytics and the Nuxt.js implementation:
 
 - The router instance is already added out of the box (read [here](https://github.com/MatteoGabriele/vue-analytics/blob/master/docs/page-tracking.md#disable-page-auto-tracking) if you need to disable it)
 - The `id` and `ua` properties have the exact same behaviour. The `ua` property has been added for backwards compatibily with previous releases
-- You can enable module for development by setting `dev: true` option in module options
+- You can disable module for `nuxt dev` by setting `dev: false` option in module options
 
 ## Development
 
