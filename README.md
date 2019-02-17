@@ -13,13 +13,13 @@
 
 ## Setup
 
-- Add `@nuxtjs/google-analytics` dependency using yarn or npm to your project
-- Add `@nuxtjs/google-analytics` to `modules` section of `nuxt.config.js`
+1. Add `@nuxtjs/google-analytics` dependency with `yarn` or `npm` into your project
+2. Add `@nuxtjs/google-analytics` to `modules` section of `nuxt.config.js`:
+3. Configure it:
 
 ```js
 {
   modules: [
-    // Simple usage
     ['@nuxtjs/google-analytics', {
       id: 'UA-12301-2'
     }]
@@ -27,7 +27,7 @@
 }
 ```
 
-using top level options
+### Using top level options
 
 ```js
 {
@@ -49,6 +49,12 @@ Differences between vue-analytics and the Nuxt.js implementation:
 
 - The router instance is already added out of the box (read [here](https://github.com/MatteoGabriele/vue-analytics/blob/master/docs/page-tracking.md#disable-page-auto-tracking) if you need to disable it)
 - The `id` and `ua` properties have the exact same behaviour. The `ua` property has been added for backwards compatibily with previous releases
+
+## Development
+
+1. Clone this repository
+2. Install dependencies using `yarn install` or `npm install`
+3. Start development server using `npm run dev`
 
 ## License
 
