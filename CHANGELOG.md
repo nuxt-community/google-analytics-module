@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/nuxt-community/analytics-module/compare/v2.0.4...v2.1.0) (2019-02-17)
+
+
+### Bug Fixes
+
+* default dev option to true to prevent breaking change ([860a27c](https://github.com/nuxt-community/analytics-module/commit/860a27c))
+
+
+### Features
+
+* support `googleAnalytics` in `nuxt.config` ([bda825e](https://github.com/nuxt-community/analytics-module/commit/bda825e))
+
+
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/nuxt-community/analytics-module/compare/v2.0.3...v2.0.4) (2019-02-17)
 
