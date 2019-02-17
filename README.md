@@ -35,7 +35,7 @@
     ['@nuxtjs/google-analytics']
   ],
 
-  'google-analytics': {
+  googleAnalytics: {
     id: 'UA-12301-2'
   }
 }
