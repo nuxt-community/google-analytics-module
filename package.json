@@ -4,9 +4,7 @@
   "description": "Google Analytics Module for Nuxt.js",
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Matteo Gabriele <m.gabriele.dev@gmail.com>"
-    }
+    "Matteo Gabriele <m.gabriele.dev@gmail.com>"
   ],
   "main": "lib/module.js",
   "repository": "https://github.com/nuxt-community/analytics-module",
@@ -14,6 +12,7 @@
     "access": "public"
   },
   "scripts": {
+    "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
