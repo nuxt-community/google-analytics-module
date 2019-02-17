@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/nuxt-community/analytics-module/compare/v2.0.3...v2.0.4) (2019-02-17)
+
+
+### Bug Fixes
+
+* disable on dev unless specified ([63e22e5](https://github.com/nuxt-community/analytics-module/commit/63e22e5))
+
+
+
 <a name="2.0.3"></a>
 ## [2.0.3](https://github.com/nuxt-community/analytics-module/compare/v2.0.2...v2.0.3) (2019-02-08)
 
