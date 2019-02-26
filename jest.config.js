@@ -1,5 +1,6 @@
 module.exports = {
   testEnvironment: 'node',
+  forceExit: true,
   collectCoverage: true,
   collectCoverageFrom: [
     'lib/**/*.js',

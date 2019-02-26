@@ -9,5 +9,8 @@ module.exports = {
   },
   modules: [
     { handler: require('../../') }
-  ]
+  ],
+  googleAnalytics: {
+    ua: 'UA-XXX'
+  }
 }
