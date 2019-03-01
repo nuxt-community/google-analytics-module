@@ -11,6 +11,6 @@ module.exports = {
     { handler: require('../../') }
   ],
   googleAnalytics: {
-    ua: 'UA-XXX'
+    id: 'UA-XXX'
   }
 }
