@@ -54,6 +54,25 @@ describe('module', () => {
     expect(html).toContain('Works!')
   })
 
+  test('option ua converted to id', async () => {
+    nuxt = await setupNuxt({
+      ...config,
+      ...{
+        googleAnalytics: {
+          ua: 'UA-YYY'
+        }
+      }
+    })
+
+    const window = await nuxt.renderAndGetWindow(url('/'))
+    expect(window.$nuxt.$ga).toBeUndefined()
+
+    expect(addTemplate).toBeDefined()
+    const call = addTemplate.mock.calls.find(args => args[0].src.includes('plugin.js'))
+    const options = call[0].options
+    expect(options.id).toBe('UA-YYY')
+  })
+
   test('disabled sendHitTask', async () => {
     nuxt = await setupNuxt({
       ...config,
@@ -87,5 +106,9 @@ describe('module', () => {
 
     const window = await nuxt.renderAndGetWindow(url('/'))
     expect(window.$nuxt.$ga).toBeUndefined()
+
+    expect(addTemplate).toBeDefined()
+    const call = addTemplate.mock.calls.find(args => args[0].src.includes('plugin.js'))
+    expect(call).toBeUndefined()
   })
 })
