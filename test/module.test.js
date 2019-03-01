@@ -65,7 +65,7 @@ describe('module', () => {
     })
 
     const window = await nuxt.renderAndGetWindow(url('/'))
-    expect(window.$nuxt.$ga).toBeUndefined()
+    expect(window.$nuxt.$ga).toBeDefined()
 
     expect(addTemplate).toBeDefined()
     const call = addTemplate.mock.calls.find(args => args[0].src.includes('plugin.js'))
