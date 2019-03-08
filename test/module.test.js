@@ -45,7 +45,10 @@ describe('module', () => {
   })
 
   test('dev mode', async () => {
-    nuxt = await setupNuxt({ ...config, ...{ dev: true } })
+    nuxt = await setupNuxt({
+      ...config, 
+      dev: true
+    })
 
     const window = await nuxt.renderAndGetWindow(url('/'))
     expect(window.$nuxt.$ga).toBeDefined()
@@ -57,13 +60,11 @@ describe('module', () => {
   test('disabled sendHitTask', async () => {
     nuxt = await setupNuxt({
       ...config,
-      ...{
-        dev: true,
-        googleAnalytics: {
-          id: 'UA-XXX',
-          debug: {
-            sendHitTask: false
-          }
+      dev: true,
+      googleAnalytics: {
+        id: 'UA-XXX',
+        debug: {
+          sendHitTask: false
         }
       }
     })
@@ -77,11 +78,9 @@ describe('module', () => {
   test('disabled', async () => {
     nuxt = await setupNuxt({
       ...config,
-      ...{
-        dev: true,
-        googleAnalytics: {
-          dev: false
-        }
+      dev: true,
+      googleAnalytics: {
+        dev: false
       }
     })
 
