@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/nuxt-community/analytics-module/compare/v2.1.0...v2.2.0) (2019-03-08)
+
+
+### Features
+
+* **module:** inject $ga in ctx ([#40](https://github.com/nuxt-community/analytics-module/issues/40)) ([2c42bf3](https://github.com/nuxt-community/analytics-module/commit/2c42bf3))
+* **plugin:** support id as a function (asyncID) ([#43](https://github.com/nuxt-community/analytics-module/issues/43)) ([6b6809e](https://github.com/nuxt-community/analytics-module/commit/6b6809e))
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/nuxt-community/analytics-module/compare/v2.0.4...v2.1.0) (2019-02-17)
 
