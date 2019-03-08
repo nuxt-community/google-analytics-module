@@ -57,10 +57,8 @@ describe('module', () => {
   test('option ua converted to id', async () => {
     nuxt = await setupNuxt({
       ...config,
-      ...{
-        googleAnalytics: {
-          ua: 'UA-YYY'
-        }
+      googleAnalytics: {
+        ua: 'UA-YYY'
       }
     })
 
