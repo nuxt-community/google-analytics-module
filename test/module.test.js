@@ -46,7 +46,7 @@ describe('module', () => {
 
   test('dev mode', async () => {
     nuxt = await setupNuxt({
-      ...config, 
+      ...config,
       dev: true
     })
 
