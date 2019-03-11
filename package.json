@@ -21,7 +21,7 @@
     "lib"
   ],
   "dependencies": {
-    "vue-analytics": "^5.16.2"
+    "vue-analytics": "^5.16.4"
   },
   "devDependencies": {
     "@babel/core": "latest",
