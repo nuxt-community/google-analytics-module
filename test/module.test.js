@@ -14,13 +14,13 @@ const get = path => request(url(path))
 
 const setupNuxt = async (config) => {
   const nuxt = new Nuxt(config)
-  await nuxt.ready()
 
   // Spy addTemplate
   addTemplate = nuxt.moduleContainer.addTemplate = jest.fn(
     nuxt.moduleContainer.addTemplate
   )
 
+  await nuxt.ready()
   await new Builder(nuxt).build()
   port = await getPort()
   await nuxt.listen(port)
