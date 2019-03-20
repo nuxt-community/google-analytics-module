@@ -14,6 +14,7 @@ const get = path => request(url(path))
 
 const setupNuxt = async (config) => {
   const nuxt = new Nuxt(config)
+  await nuxt.ready()
 
   // Spy addTemplate
   addTemplate = nuxt.moduleContainer.addTemplate = jest.fn(
