@@ -20,6 +20,7 @@ const setupNuxt = async (config) => {
     nuxt.moduleContainer.addTemplate
   )
 
+  await nuxt.ready()
   await new Builder(nuxt).build()
   port = await getPort()
   await nuxt.listen(port)
