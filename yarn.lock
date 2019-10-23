@@ -1254,12 +1254,12 @@
     eslint-plugin-vue "^5.2.3"
 
 "@nuxtjs/module-test-utils@latest":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/module-test-utils/-/module-test-utils-1.3.1.tgz#7ec18a99be87a225a472b6ed7c4c1bdecd49bf0b"
-  integrity sha512-DYyXvBEKMDrFOr3NAEG5cFEA5ukVnEIBtBxUKiEApaj0XrmdAMj7ALVvhU5u+Gqk/oM+0OllMYMK84RVtnkYpA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/module-test-utils/-/module-test-utils-1.4.0.tgz#d9243b1bde3dbd48f56fdedd9a458bac45cc5d6b"
+  integrity sha512-xp7ADUMcL8FsguA9Bt+iB2E69TMfi2BfUvHQM3xR4g27nY1y2bLlM483zK4/RHdSckVkxdJMw0zSpwY8gQNaXA==
   dependencies:
     clone-deep "^4.0.1"
-    deepmerge "^4.1.1"
+    deepmerge "^4.2.1"
     get-port "^5.0.0"
     request "^2.88.0"
     request-promise-native "^1.0.7"
@@ -3513,7 +3513,7 @@ deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
-deepmerge@^4.0.0, deepmerge@^4.1.1:
+deepmerge@^4.0.0, deepmerge@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.1.tgz#018a3e5dfe82b95e35e36a9a29ba15ddb194e40f"
   integrity sha512-32P7FIV6JKt0hPMFNlWFytzVGpppYHFKdnhFUEMXheWc8Lw4HnHEzJa5yxhaQedDAXv2SI6zD7+UbqnC5k9g9Q==
