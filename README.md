@@ -76,11 +76,11 @@ Copyright (c) - Matteo Gabriele <m.gabriele.dev@gmail.com>
 [npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/google-analytics.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@nuxtjs/google-analytics
 
-[circle-ci-src]: https://img.shields.io/circleci/project/github/nuxt-community/google-analytics.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/nuxt-community/google-analytics
+[circle-ci-src]: https://img.shields.io/circleci/project/github/nuxt-community/analytics-module.svg?style=flat-square
+[circle-ci-href]: https://circleci.com/gh/nuxt-community/analytics-module
 
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/google-analytics.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/nuxt-community/google-analytics
+[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/analytics-module.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/nuxt-community/analytics-module
 
 [license-src]: https://img.shields.io/npm/l/@nuxtjs/google-analytics.svg?style=flat-square
 [license-href]: https://npmjs.com/package/@nuxtjs/google-analytics
