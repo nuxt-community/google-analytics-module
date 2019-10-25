@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.2.1](https://github.com/nuxt-community/analytics-module/compare/v2.2.0...v2.2.1) (2019-10-25)
+
+
+### Bug Fixes
+
+* send hits in production mode by default ([#60](https://github.com/nuxt-community/analytics-module/issues/60)) ([0871f84](https://github.com/nuxt-community/analytics-module/commit/0871f848051ce8f5646493552c405b0c4dd44e0a))
 
 <a name="2.2.0"></a>
 # [2.2.0](https://github.com/nuxt-community/analytics-module/compare/v2.1.0...v2.2.0) (2019-03-08)
