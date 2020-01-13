@@ -67,7 +67,7 @@ Differences between vue-analytics and the Nuxt.js implementation:
 
 [MIT License](./LICENSE)
 
-Copyright (c) - Matteo Gabriele <m.gabriele.dev@gmail.com>
+Copyright (c) Nuxt Community
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/google-analytics/latest.svg?style=flat-square
