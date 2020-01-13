@@ -2,7 +2,7 @@
   "name": "@nuxtjs/google-analytics",
   "version": "2.2.3",
   "description": "Google Analytics Module for Nuxt.js",
-  "repository": "https://github.com/nuxt-community/analytics-module",
+  "repository": "nuxt-community/analytics-module",
   "license": "MIT",
   "contributors": [
     "Matteo Gabriele <m.gabriele.dev@gmail.com>",
