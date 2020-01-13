@@ -5,7 +5,8 @@
   "repository": "https://github.com/nuxt-community/analytics-module",
   "license": "MIT",
   "contributors": [
-    "Matteo Gabriele <m.gabriele.dev@gmail.com>"
+    "Matteo Gabriele <m.gabriele.dev@gmail.com>",
+    "Ricardo Gobbo de Souza <ricardogobbosouza@yahoo.com.br>"
   ],
   "files": [
     "lib"
