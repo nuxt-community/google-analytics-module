@@ -9,7 +9,7 @@ describe('disabled sendHitTask', () => {
         nuxt.moduleContainer.addTemplate
       )
     }
-    ({ nuxt } = (await setup(loadConfig(__dirname, 'disabled-send-hit-task'), { waitFor: 2000, beforeNuxtReady })))
+    ({ nuxt } = (await setup(loadConfig(__dirname, 'disabled-send-hit-task'), { beforeNuxtReady })))
   }, 60000)
 
   afterAll(async () => {

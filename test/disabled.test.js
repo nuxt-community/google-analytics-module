@@ -9,7 +9,7 @@ describe('disabled', () => {
         nuxt.moduleContainer.addTemplate
       )
     }
-    ({ nuxt } = (await setup(loadConfig(__dirname, 'disabled'), { waitFor: 2000, beforeNuxtReady })))
+    ({ nuxt } = (await setup(loadConfig(__dirname, 'disabled'), { beforeNuxtReady })))
   }, 60000)
 
   afterAll(async () => {
