@@ -9,7 +9,7 @@ describe('dev', () => {
         nuxt.moduleContainer.addTemplate
       )
     }
-    ({ nuxt } = (await setup(loadConfig(__dirname, 'dev'), { waitFor: 2000, beforeNuxtReady })))
+    ({ nuxt } = (await setup(loadConfig(__dirname, 'dev'), { beforeNuxtReady })))
   }, 60000)
 
   afterAll(async () => {
