@@ -25,7 +25,6 @@
     "@commitlint/config-conventional": "latest",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
-    "codecov": "latest",
     "eslint": "latest",
     "husky": "latest",
     "jest": "latest",
