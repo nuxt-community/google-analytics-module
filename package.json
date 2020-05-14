@@ -9,8 +9,10 @@
     "Ricardo Gobbo de Souza <ricardogobbosouza@yahoo.com.br>"
   ],
   "main": "lib/module.js",
+  "types": "types/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    "types/*.d.ts"
   ],
   "scripts": {
     "lint": "eslint --ext .js,.vue .",
