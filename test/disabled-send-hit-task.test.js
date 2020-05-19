@@ -1,4 +1,4 @@
-const { setup, loadConfig, get, url } = require('@nuxtjs/module-test-utils')
+const { setup, loadConfig, get } = require('@nuxtjs/module-test-utils')
 
 describe('disabled sendHitTask', () => {
   let nuxt, addTemplate
@@ -19,11 +19,6 @@ describe('disabled sendHitTask', () => {
   test('render', async () => {
     const html = await get('/')
     expect(html).toContain('Works!')
-  })
-
-  test('$ga should be defined', async () => {
-    const window = await nuxt.renderAndGetWindow(url('/'))
-    expect(window.$nuxt.$ga).toBeDefined()
   })
 
   test('sendHitTask should be false', () => {

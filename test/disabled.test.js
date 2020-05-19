@@ -1,4 +1,4 @@
-const { setup, loadConfig, get, url } = require('@nuxtjs/module-test-utils')
+const { setup, loadConfig, get } = require('@nuxtjs/module-test-utils')
 
 describe('disabled', () => {
   let nuxt, addTemplate
@@ -19,11 +19,6 @@ describe('disabled', () => {
   test('render', async () => {
     const html = await get('/')
     expect(html).toContain('Works!')
-  })
-
-  test('$ga should be undefined', async () => {
-    const window = await nuxt.renderAndGetWindow(url('/'))
-    expect(window.$nuxt.$ga).toBeUndefined()
   })
 
   test('plugin should be undefined', () => {
