@@ -47,7 +47,7 @@ export default {
 
 ## Usage
 
-Click [here](https://matteogabriele.gitbooks.io/vue-analytics/content/) for all options and features of vue-analytics
+Click [here](https://matteogabriele.gitbooks.io/vue-analytics/) for all options and features of vue-analytics
 
 Differences between vue-analytics and the Nuxt.js implementation:
 
