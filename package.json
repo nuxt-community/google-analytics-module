@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/google-analytics",
-  "version": "2.2.3",
+  "version": "2.3.0",
   "description": "Google Analytics Module for Nuxt.js",
   "repository": "nuxt-community/analytics-module",
   "license": "MIT",
