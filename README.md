@@ -45,6 +45,28 @@ export default {
 }
 ```
 
+### Runtime Config
+
+The use of [runtime config](https://nuxtjs.org/guide/runtime-config) is mandatory in case of using environment variables in production, otherwise, the values will be hard coded during build and won't change.
+
+```js
+export default {
+  buildModules: [
+    '@nuxtjs/google-analytics'
+  ],
+
+  googleAnalytics: {
+    id: 'UA-12301-2', // Used as fallback if no runtime config is provided
+  },
+
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  },
+}
+```
+
 ## Usage
 
 Click [here](https://matteogabriele.gitbooks.io/vue-analytics/) for all options and features of vue-analytics
