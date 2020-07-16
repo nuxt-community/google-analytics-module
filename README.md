@@ -47,7 +47,7 @@ export default {
 
 ### Runtime Config
 
-The use of [runtime config](https://nuxtjs.org/guide/runtime-config) is mandatory in case of using environment variables in production, otherwise, the values will be hard coded during build and won't change.
+You can use [runtime config](https://nuxtjs.org/guide/runtime-config) if need to use dynamic environment variables in production. Otherwise, the options will be hardcoded during the build and won't be read from `nuxt.config` anymore.
 
 ```js
 export default {
