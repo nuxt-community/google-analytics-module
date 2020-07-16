@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/nuxt-community/analytics-module/compare/v2.3.0...v2.4.0) (2020-07-16)
+
+
+### Features
+
+* **plugin:** support runtimeConfig ([#81](https://github.com/nuxt-community/analytics-module/issues/81)) ([8248e60](https://github.com/nuxt-community/analytics-module/commit/8248e602d881e2451c5b3e07f12acd99628c8260))
+
 ## [2.3.0](https://github.com/nuxt-community/analytics-module/compare/v2.2.3...v2.3.0) (2020-05-19)
 
 
