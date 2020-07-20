@@ -15,6 +15,7 @@
     "types/*.d.ts"
   ],
   "scripts": {
+    "dev": "nuxt test/fixture/dev",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
