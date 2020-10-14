@@ -16,6 +16,12 @@ export default {
 }
 ```
 
+<alert type="info">
+
+`router` instance is added out of the box. You can refer [here](https://github.com/MatteoGabriele/vue-analytics/blob/master/docs/page-tracking.md#disable-page-auto-tracking) on to how to disable it if needed.
+
+</alert>
+
 ## Google Analytics options
 
 ### `id`
@@ -78,3 +84,9 @@ export default {
   }
 }
 ```
+
+<alert type="info">
+
+For a full list of options, please see [Vue Analytics] documentation.
+
+</alert>

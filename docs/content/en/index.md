@@ -1,24 +1,25 @@
 ---
 title: Introduction
-description: ''
+description: 'What is Google Analytics Module for Nuxt.js'
 position: 1
 category: ''
 features:
-  - Feature 1
-  - Feature 2
-  - Feature 3
+  - Automatic page tracking
+  - Event batching and tracking
+  - User timings track
+  - Screen view tracking
+  - Automatic Google Analytics script loading
+  - Multiple domain ID tracking system
+  - E-commerce tracking support
+  - Multiple domain ID tracking system
 ---
 
 <img src="/preview.png" class="light-img" width="1280" height="640" alt=""/>
 <img src="/preview-dark.png" class="dark-img" width="1280" height="640" alt=""/>
 
-[Module]() for [NuxtJS](https://nuxtjs.org).
+[Google Analytics](https://analytics.google.com/analytics/web/) integration for [NuxtJS](https://nuxtjs.org).
 
-<alert type="success">
-
-Your documentation has been created successfully!
-
-</alert>
+Track the visitors to your sites and applications, measure your ROI and provide in-depth analysis details about your visitors' behaviors.
 
 ## Features
 
