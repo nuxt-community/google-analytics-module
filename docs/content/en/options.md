@@ -8,7 +8,7 @@ fullscreen: false
 
 To configure the module, you can use `googleAnalytics` section in `nuxt.config.js`.
 
-```js[nuxt.config.js]
+```js{}[nuxt.config.js]
 export default {
   googleAnalytics: {
     // Options
@@ -112,6 +112,6 @@ export default {
 
 <alert type="info">
 
-For a full list of options, please see [Vue Analytics] documentation.
+For a full list of options, please see [Vue Analytics](https://matteogabriele.gitbooks.io/vue-analytics) documentation.
 
 </alert>

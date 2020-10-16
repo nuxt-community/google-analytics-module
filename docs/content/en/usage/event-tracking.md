@@ -5,7 +5,11 @@ position: 5
 category: Usage
 ---
 
-This module injects `$ga` instance globally. You can access the instance anywhere using `this.$ga` (within a component), or `context.$ga` (for plugins, `asyncData`, `fetch`, `nuxtServerInit` ,and middleware)
+This module injects `$ga` instance globally.
+
+You can access the instance anywhere using:
+- `this.$ga` within a component
+- `context.$ga` for plugins, `asyncData`, `nuxtServerInit` and [middleware](https://nuxtjs.org/guides/directory-structure/middleware)
 
 ## `event()`
 

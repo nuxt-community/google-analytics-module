@@ -52,7 +52,7 @@ Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossa
 
 ### Configure
 
-Add `googleAnalytics` section in `nuxt.config.js` to set configurastions for Google Analytics module.
+Add `googleAnalytics` section in `nuxt.config.js` to set the module options:
 
 ```js[nuxt.config.js]
 export default {
@@ -100,6 +100,6 @@ export default {
 
 <alert type="info">
 
-For a full list of usage, refer to [Vue Analytics Documentation](https://matteogabriele.gitbooks.io/vue-analytics)
+For a full list of usage, refer to [Vue Analytics Documentation](https://matteogabriele.gitbooks.io/vue-analytics).
 
 </alert>
