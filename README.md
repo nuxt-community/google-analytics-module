@@ -41,7 +41,7 @@ Copyright (c) Nuxt Community
 [npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/google-analytics/latest.svg
 [npm-version-href]: https://npmjs.com/package/@nuxtjs/google-analytics
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/google-analytics.svg
+[npm-downloads-src]: https://img.shields.io/npm/dm/@nuxtjs/google-analytics.svg
 [npm-downloads-href]: https://npmjs.com/package/@nuxtjs/google-analytics
 
 [github-actions-ci-src]: https://github.com/nuxt-community/analytics-module/workflows/ci/badge.svg
