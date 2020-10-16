@@ -10,8 +10,8 @@
 
 > [Google Analytics](https://analytics.google.com/analytics/web/) integration for [Nuxt](https://nuxtjs.org) using [vue-analytics](https://github.com/MatteoGabriele/vue-analytics).
 
-[✨ &nbsp;Release Notes](./CHANGELOG.md)
-[📖 &nbsp;Documentation](https://google-analytics.nuxtjs.org)
+- [✨ &nbsp;Release Notes](./CHANGELOG.md)
+- [📖 &nbsp;Documentation](https://google-analytics.nuxtjs.org)
 
 ## Features
 
