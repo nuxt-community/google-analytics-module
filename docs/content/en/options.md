@@ -45,6 +45,31 @@ For backwards compatibilities, use `ua` instead.
 
 </alert>
 
+### `asyncID`
+
+* Type: `Function`
+  * Should return a `String` as tracking `id` for GA account.
+
+Allow an asynchronous function to load the `id`
+
+```js[nuxt.config.js]
+export default {
+  googleAnalytics: {
+    asyncID: async (context) => { 
+      /* do something */
+
+      return 'UA-XXX-X' 
+    }
+  }
+}
+```
+
+<alert type="warning">
+
+If both `id` and `asyncID` are present, the returned value from `asyncID` will override the value of `id`.
+
+</alert>
+
 ### `debug`
 
 * Type: `Object`

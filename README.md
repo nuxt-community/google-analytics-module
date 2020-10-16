@@ -1,4 +1,6 @@
-# Google Analytics
+# @nuxtjs/google-analytics
+
+[![@nuxtjs/google-analytics](https://ga.nuxtjs.org/preview.png)](https://ga.nuxtjs.org)
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -6,84 +8,21 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> Google Analytics integration for Nuxt.js with [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
+> [Google Analytics](https://analytics.google.com/analytics/web/) integration for Nuxt.js with [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
 
-[📖 **Release Notes**](./CHANGELOG.md)
+[✨ **Release Notes**](./CHANGELOG.md)
+[📖 **Documentatio**](https://ga.nuxtjs.org)
 
-## Setup
+## Features
 
-1. Add `@nuxtjs/google-analytics` dependency to your project
-
-```bash
-yarn add --dev @nuxtjs/google-analytics # or npm install --save-dev @nuxtjs/google-analytics
-```
-
-2. Add `@nuxtjs/google-analytics` to the `buildModules` section of `nuxt.config.js`
-
-```js
-export default {
-  buildModules: [
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-12301-2'
-    }]
-  ]
-}
-```
-
-:warning: If you are using Nuxt **< v2.9** you have to install the module as a `dependency` (No `--dev` or `--save-dev` flags) and use `modules` section in `nuxt.config.js` instead of `buildModules`.
-
-### Using top level options
-
-```js
-export default {
-  buildModules: [
-    '@nuxtjs/google-analytics'
-  ],
-  googleAnalytics: {
-    id: 'UA-12301-2'
-  }
-}
-```
-
-### Runtime Config
-
-You can use [runtime config](https://nuxtjs.org/guide/runtime-config) if need to use dynamic environment variables in production. Otherwise, the options will be hardcoded during the build and won't be read from `nuxt.config` anymore.
-
-```js
-export default {
-  buildModules: [
-    '@nuxtjs/google-analytics'
-  ],
-
-  googleAnalytics: {
-    id: 'UA-12301-2', // Used as fallback if no runtime config is provided
-  },
-
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
-  },
-}
-```
-
-## Usage
-
-Click [here](https://matteogabriele.gitbooks.io/vue-analytics/) for all options and features of vue-analytics
-
-Differences between vue-analytics and the Nuxt.js implementation:
-
-- The router instance is already added out of the box (read [here](https://github.com/MatteoGabriele/vue-analytics/blob/master/docs/page-tracking.md#disable-page-auto-tracking) if you need to disable it)
-- The `id` and `ua` properties have the exact same behaviour. The `ua` property has been added for backwards compatibily with previous releases
-- You can disable module for `nuxt dev` by setting `dev: false` option in module options
-- Note: By default, you won't see hits going out in dev mode. For testing analytics in dev mode, you must add the following to the `googleAnalytics` options in `nuxt.config.js`:
-
-  ```js
-  debug: {
-    enabled: true,
-    sendHitTask: true
-  }
-  ```
+- Automatic page tracking
+- Event batching and tracking
+- User timings track
+- Screen view tracking
+- Automatic Google Analytics script loading
+- Multiple domain ID tracking system
+- E-commerce tracking support
+- Multiple domain ID tracking system
 
 ## Development
 
