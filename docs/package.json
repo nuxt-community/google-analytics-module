@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-google-analytics-docs",
+  "version": "1.0.0",
+  "description": "Google Analytics Module for Nuxt.js",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.7.1",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "nuxt-ackee": "^2.0.0"
+  }
+}
