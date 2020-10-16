@@ -1,6 +1,6 @@
-# @nuxtjs/google-analytics
-
 [![@nuxtjs/google-analytics](https://google-analytics.nuxtjs.org/preview.png)](https://google-analytics.nuxtjs.org)
+
+# @nuxtjs/google-analytics
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
