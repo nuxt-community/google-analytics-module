@@ -1,6 +1,6 @@
 {
   "title": "Google Analytics Module for Nuxt.js",
-  "url": "https://ga.nuxtjs.org",
+  "url": "https://google-analytics.nuxtjs.org",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"

@@ -1,6 +1,6 @@
 # @nuxtjs/google-analytics
 
-[![@nuxtjs/google-analytics](https://ga.nuxtjs.org/preview.png)](https://ga.nuxtjs.org)
+[![@nuxtjs/google-analytics](https://google-analytics.nuxtjs.org/preview.png)](https://google-analytics.nuxtjs.org)
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -8,23 +8,24 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> [Google Analytics](https://analytics.google.com/analytics/web/) integration for Nuxt.js with [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
+> [Google Analytics](https://analytics.google.com/analytics/web/) integration for [Nuxt](https://nuxtjs.org) using [vue-analytics](https://github.com/MatteoGabriele/vue-analytics).
 
-[✨ **Release Notes**](./CHANGELOG.md)
-[📖 **Documentatio**](https://ga.nuxtjs.org)
+[✨ &nbsp;Release Notes](./CHANGELOG.md)
+[📖 &nbsp;Documentation](https://google-analytics.nuxtjs.org)
 
 ## Features
 
 - Automatic page tracking
-- Event batching and tracking
-- User timings track
-- Screen view tracking
+- Event batching
+- User timings
+- Screen view
+- Multiple domain ID
 - Automatic Google Analytics script loading
-- Multiple domain ID tracking system
-- E-commerce tracking support
-- Multiple domain ID tracking system
+- E-commerce support
 
-## Development
+[📖 &nbsp;Read more](https://google-analytics.nuxtjs.org)
+
+## Contributing
 
 1. Clone this repository
 2. Install dependencies using `yarn install` or `npm install`

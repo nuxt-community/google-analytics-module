@@ -16,7 +16,7 @@ features:
 <img src="/preview.png" class="light-img" width="1280" height="640" alt=""/>
 <img src="/preview-dark.png" class="dark-img" width="1280" height="640" alt=""/>
 
-[Google Analytics](https://analytics.google.com/analytics/web/) integration for [Nuxt](https://nuxtjs.org).
+[Google Analytics](https://analytics.google.com/analytics/web/) integration for [Nuxt](https://nuxtjs.org) using [vue-analytics](https://github.com/MatteoGabriele/vue-analytics).
 
 Track the visitors to your sites and applications, measure your ROI and provide in-depth analysis details about your visitors' behaviors.
 
