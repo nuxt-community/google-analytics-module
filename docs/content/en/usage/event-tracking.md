@@ -1,6 +1,6 @@
 ---
 title: Event tracking
-description: How to send event to GA
+description: Learn how to send event to Google Analytics with the Nuxt module
 position: 5
 category: Usage
 ---

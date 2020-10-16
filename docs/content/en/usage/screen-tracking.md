@@ -1,6 +1,6 @@
 ---
 title: Screen tracking
-description: How to track screen view using GA
+description: Learn how to track screen views using the Google Analytics  module for Nuxt
 position: 6
 category: Usage
 ---

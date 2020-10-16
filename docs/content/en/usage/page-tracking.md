@@ -1,6 +1,6 @@
 ---
 title: Page tracking
-description: How to track a page in Goggle Analytics module
+description: Learn how to track a page in Google Analytics with the Nuxt module
 position: 4
 category: Usage
 ---

@@ -1,6 +1,6 @@
 ---
 title: Setup
-description: How to setup Google Analytics module in Nuxt?
+description: Learn how to setup the Google Analytics module in Nuxt
 position: 2
 category: Guide
 ---

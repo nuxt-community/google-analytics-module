@@ -1,6 +1,6 @@
 ---
 title: Options
-description: a list of configuration options for Google Analytics in Nuxt
+description: Learn how to configure the Google Analytics module in Nuxt
 position: 3
 category: Guide
 fullscreen: false

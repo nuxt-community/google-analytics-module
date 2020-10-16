@@ -1,6 +1,6 @@
 ---
 title: User timings tracking
-description: How to track and measure user interactive time in GA
+description: Learn how to track and measure user interactive time with the Google Analytics module for Nuxt
 position: 7
 category: Usage
 ---

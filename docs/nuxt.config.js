@@ -9,5 +9,10 @@ export default theme({
     server: 'https://ackee.nuxtjs.com',
     domainId: '79213d80-7ac2-47c6-ba6b-0025a7a0ee35',
     detailed: true
+  },
+  pwa: {
+    manifest: {
+      name: 'Nuxt Google Analytics'
+    }
   }
 })

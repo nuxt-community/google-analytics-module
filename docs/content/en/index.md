@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: 'What is Google Analytics Module for Nuxt'
+description: The Google Analytics module for Nuxt
 position: 1
 category: ''
 features:
