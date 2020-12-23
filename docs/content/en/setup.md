@@ -11,22 +11,22 @@ Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossa
 
 1. Add `@nuxtjs/google-analytics` dependency to your project:
 
-  <code-group>
-    <code-block label="Yarn" active>
+<code-group>
+  <code-block label="Yarn" active>
 
-    ```bash
-    yarn add --dev @nuxtjs/google-analytics
-    ```
+  ```bash
+  yarn add --dev @nuxtjs/google-analytics
+  ```
 
-    </code-block>
-    <code-block label="NPM">
+  </code-block>
+  <code-block label="NPM">
 
-    ```bash
-    npm install --save-dev @nuxtjs/google-analytics
-    ```
+  ```bash
+  npm install --save-dev @nuxtjs/google-analytics
+  ```
 
-    </code-block>
-  </code-group>
+  </code-block>
+</code-group>
 
   <alert type="warning">
 
