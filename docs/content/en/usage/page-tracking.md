@@ -34,7 +34,7 @@ this.$ga.page('/')
 Or to pass an `Object` containing the page details:
 
 ```js
-this.ga.page({
+this.$ga.page({
   page: '/',
   title: 'Home page',
   location: window.location.href
