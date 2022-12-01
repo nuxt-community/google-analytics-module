@@ -21,7 +21,8 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "vue-analytics": "^5.22.1"
+    "vue-analytics": "^5.22.1",
+    "vue-gtag": "^1.16.1"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
