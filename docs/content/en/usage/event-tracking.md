@@ -5,6 +5,10 @@ position: 5
 category: Usage
 ---
 
+<alert type="warning">
+This documentation is only applicable when the Google Analytics 3 is enabled. For documentation on event tracking with Google Analytics 4, see <a href="https://matteo-gabriele.gitbook.io/vue-gtag/v/master/methods/events">vue-gtag/event documentation</a>.
+</alert>
+
 This module injects `$ga` instance globally.
 
 You can access the instance anywhere using:
