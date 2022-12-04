@@ -6,8 +6,9 @@ category: Guide
 ---
 
 
-> **⚠ WARNING: This package does not support GA4. **
-> This package currently only supports GA3/UA
+<alert type="warning">
+  If you need Google Analytics 4 support, check our documentation on the `useGtag` option <nuxt-link to="/options#usegtag">here</nuxt-link>
+</alert>
 
 
 Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.

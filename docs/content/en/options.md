@@ -70,6 +70,24 @@ If both `id` and `asyncID` are present, the returned value from `asyncID` will o
 
 </alert>
 
+
+### `useGtag`
+
+* Type: `Boolean`
+* default: `false`
+
+If set to `true`, the module will use [Google Analytics 4](#google-analytics-4). By default, the module uses [Google Analytics 3](#google-analytics-3). Refer to the respective sections for options below.
+
+## Google Analytics 3
+
+The following options are only applicable if you have `useGtag` set to false.
+
+<alert type="info">
+
+For a full list of options, please see [Vue Analytics](https://matteogabriele.gitbooks.io/vue-analytics) documentation.
+
+</alert>
+
 ### `debug`
 
 * Type: `Object`
@@ -110,8 +128,42 @@ export default {
 }
 ```
 
+## Google Analytics 4
+
+The following options are only applicable if you have `useGtag` set to true.
+
 <alert type="info">
 
-For a full list of options, please see [Vue Analytics](https://matteogabriele.gitbooks.io/vue-analytics) documentation.
+For a full list of options, please see [Vue Gtag v1](https://matteo-gabriele.gitbook.io/vue-gtag/v/master/) documentation.
 
 </alert>
+
+### `disableScriptLoad`
+
+* Type: `Boolean`
+
+Disable the script loader
+
+```js[nuxt.config.js]
+export default {
+  googleAnalytics: {
+    disableScriptLoad: true
+  }
+}
+```
+
+### `onReady`
+
+* Type: `Function`
+
+Will fire when the gtag script is successfully loaded
+
+```js[nuxt.config.js]
+export default {
+  googleAnalytics: {
+    onReady() {
+      // Ready!
+    }
+  }
+}
+```
