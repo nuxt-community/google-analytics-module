@@ -8,7 +8,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> [Google Analytics](https://analytics.google.com/analytics/web/) integration for [Nuxt](https://nuxtjs.org) using [vue-analytics](https://github.com/MatteoGabriele/vue-analytics).
+> [Google Analytics](https://analytics.google.com/analytics/web/) integration for [Nuxt](https://nuxtjs.org) using [vue-analytics](https://github.com/MatteoGabriele/vue-analytics) for Google Analytics 3 and [vue-gtag](https://github.com/MatteoGabriele/vue-gtag) for Google Analytics 4.
 
 - [✨ &nbsp;Release Notes](./CHANGELOG.md)
 - [📖 &nbsp;Documentation](https://google-analytics.nuxtjs.org)
