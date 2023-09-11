@@ -17,6 +17,10 @@
 - [✨ &nbsp;Release Notes](./CHANGELOG.md)
 - [📖 &nbsp;Documentation](https://google-analytics.nuxtjs.org)
 
+## Nuxt 3
+
+If you need Nuxt 3 support can use the alternative module [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag).
+
 ## Features
 
 - Automatic page tracking
