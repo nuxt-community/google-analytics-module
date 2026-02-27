@@ -1,9 +1,5 @@
 [![@nuxtjs/google-analytics](https://google-analytics.nuxtjs.org/preview.png)](https://google-analytics.nuxtjs.org)
 
-
-> **⚠ WARNING: This package does not support GA4. **  
-> This package currently only supports GA3/UA
-
 # @nuxtjs/google-analytics
 
 [![npm version][npm-version-src]][npm-version-href]
